@@ -1,0 +1,671 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*section {
+  display: block;
+}*/
+.clear{
+     clear:both;
+}
+
+.header {
+  color: #394961;
+  text-align: center;
+  height: 800px;
+  width: 100%;
+  border: none;
+  font-size: 52px;
+}
+
+section > .nightlife {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+#NightlifeBlock1 {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: red;
+  float: left;
+  position: relative;
+}
+#NightlifeBlock2 {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+  float: left;
+  position: relative;
+}
+
+/* #BourbonImage {
+    margin: 0;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ }*/
+#BourbonImage {
+  margin: 20px 0;
+}
+
+/*@media only screen and (min-width: 1820px) {
+  .header {
+  color: #ff02fc;
+  }
+
+  #BourbonImage {
+    height: 70%;
+    width: 60%;
+    margin: 0;
+    top: 43%;
+    position: absolute;
+  }
+}*/
+
+/* --------------------------------------------- Streets Blocks -------------------------------------------*/
+
+#StreetSpacing {
+  padding: 10px;
+}
+
+.MagazineStreet {
+  background-color: green;
+  width: 50%;
+  display: inline-block;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+.FultonStreet {
+  background-color: orange;
+  width: 50%;
+  display: inline-block;
+  height: auto;
+  float: right;
+  position: relative;
+}
+
+.BourbonStreet {
+  background-color: orange;
+  width: 50%;
+  display: inline-block;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+.FrenchmanStreet {
+  background-color: green;
+  width: 50%;
+  display: inline-block;
+  height: auto;
+  float: right;
+  position: relative;
+}
+
+
+
+/* --------------------------------------------- Begin Eats Section ---------------------------------------*/
+
+section > .OrleanRow {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /*overflow: hidden;*/
+  margin: 30px 0;
+  color: white;
+}
+
+
+#EatsBlock1 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  vertical-align: top;
+ /* float: left;*/
+  /*position: relative;*/
+}
+#EatsBlock2 {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  margin-top: 0px;
+  background-color: blue;
+  vertical-align: top;
+  /*float: left;*/
+  /*position: relative;*/
+}
+
+#Eats1 {
+  width: 200px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+#Circles {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+#Squares {
+  margin: 1px 0;
+}
+
+/* ------------------------------------------------ Festivals Section -------------------------------------------------*/
+
+
+.FestivalsRow {
+  width: 100%;
+  height: 400px;
+  background-color: red;
+  color: blue;
+  margin: 0;
+}
+
+
+#FestivalsBlock1 {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: green;
+  float: left;
+  position: relative;
+  overflow: visible;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#FestivalsBlock2 {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+  float: left;
+  position: relative;
+  text-align: center;
+  overflow: visible;
+  margin-bottom: 10px;
+}
+
+
+
+#FestivalsBlock3 {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: red;
+  float: left;
+  overflow: visible;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#FestivalsBlock4 {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: orange;
+  float: left;
+  overflow: visible;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#FestivalSpacing {
+  padding: 50px 10px;
+}
+
+
+
+/* --------------------------------------------- Fun Indoors Section ---------------------------------------*/
+.container {
+  width: 100%;
+  display: inline-flex;
+}
+#FunIndoors {
+  background-color: blue;
+  width: 33.3%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+}
+#FunIndoorsMiddle {
+  background-color: red;
+  width: 33.3%;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+#IndoorSpacing {
+  padding: 0 10px;
+  text-align: center;
+}
+#SquaresIndoors {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 1216px) {
+
+  #FunIndoors {
+    width: 35%;
+  }
+  #FunIndoorsMiddle {
+    width: 30%;
+  }
+  #SquaresIndoors {
+    width: 90%;
+    height: 90%;
+    top: 45%;
+  }
+}
+
+/* --------------------------------------------- Footer ---------------------------------------*/
+
+
+footer {
+  background-color: #151515;
+  margin: 0;
+  padding: 10px 100px 10px 100px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  clear: both;
+}
+
+
+/* --------------------------------------------------- Mobile Phone ---------------------------------------------*/
+
+@media only screen and (max-width: 320px) {
+    /* styles for narrow IPHONE screens */
+
+  .header {
+  height: 400px;
+  width: 100%;
+  font-size: 18px;
+  color: red;
+  }
+
+  .nightlife {
+  width: 100%;
+  height: 100%;
+  }
+
+  #NightlifeBlock1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+   #BourbonImage {
+    height: 90%;
+    width: 100%;
+  }
+
+  #NightlifeBlock2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+
+  #StreetSpacing {
+    padding: 10px;
+  }
+
+  .MagazineStreet {
+    width: 100%;
+    display: block;
+    height: 100%;
+    float: left;
+  }
+
+  .FultonStreet {
+    width: 100%;
+    display: block;
+    height: 100%;
+    float: left;
+  }
+
+  .BourbonStreet {
+    width: 100%;
+    display: block;
+    height: 100%;
+    float: left;
+  }
+
+  .FrenchmanStreet {
+    width: 100%;
+    display: block;
+    height: 100%;
+    float: left;
+  }
+
+  #EatsBlock1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+   /* float: left;*/
+    /*position: relative;*/
+  }
+  #EatsBlock2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    /*float: left;*/
+    /*position: relative;*/
+  }
+
+  #Eats1 {
+    width: auto;
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+
+  #FestivalsBlock1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    /*float: left;*/
+    position: relative;
+    overflow: visible;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  #FestivalsBlock2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    /*float: left;*/
+    position: relative;
+    overflow: visible;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  #reverse {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+  }
+  #FestivalsBlock3 {
+      -webkit-box-ordinal-group: 3;
+      -moz-box-ordinal-group: 3;
+      box-ordinal-group: 3;
+      width: 100%;
+      margin-bottom: 0px;
+  }
+  #FestivalsBlock4 {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      box-ordinal-group: 2;
+      width: 100%;
+      margin-bottom: 0px;
+  }
+  #Squares {
+      margin: 1px 0;
+      width: 80%;
+      height: 80%;
+  }
+
+  .container {
+    width: 100%;
+    display: block;
+  }  
+  #FunIndoors {
+    width: 100%;
+    background-color: green;
+    display: block;
+  }
+  #FunIndoorsMiddle {
+    width: 100%;
+    display: block;
+  }
+  #SquaresIndoors {
+    width: 100%;
+    height: 80%;
+    top: 50%;
+  }
+  footer {
+    padding: 10px;
+  }
+
+}
+
+
+
+/* --------------------------------------------------- Tablet ---------------------------------------------*/
+
+@media only screen and (max-width: 916px) and (min-width: 320px) {
+    /* styles for ipad screens */
+  .header {
+  height: 600px;
+  width: 100%;
+  font-size: 34px;
+  color: green;
+  }
+
+  .nightlife {
+  width: 100%;
+  height: 100%;
+  }
+
+  #NightlifeBlock1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+   #BourbonImage {
+    height: 60%;
+    width: 70%;
+  }
+  #NightlifeBlock2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+
+  #StreetSpacing {
+    padding: 10px;
+  }
+
+
+  .MagazineStreet {
+    width: 50%;
+    display: block;
+    height: 50%;
+    float: left;
+  }
+
+  .FultonStreet {
+    width: 50%;
+    display: block;
+    height: 50%;
+    float: right;
+  }
+
+  .BourbonStreet {
+    width: 50%;
+    display: block;
+    height: 50%;
+    float: left;
+  }
+
+  .FrenchmanStreet {
+    width: 50%;
+    display: block;
+    height: 50%;
+    float: right;
+  }
+
+  #EatsBlock1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    margin: auto 0;
+  }
+  #EatsBlock2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    margin: auto 0;
+  }
+
+  #Eats1 {
+    width: auto;
+    height: 100%;
+    display: inline-block;
+  }
+
+
+
+  #FestivalsBlock1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    /*float: left;*/
+    position: relative;
+    overflow: visible;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  #FestivalsBlock2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    /*float: left;*/
+    position: relative;
+    overflow: visible;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  #reverse {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      width: 100%;
+      
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+  }
+  #FestivalsBlock3 {
+      -webkit-box-ordinal-group: 3;
+      -moz-box-ordinal-group: 3;
+      box-ordinal-group: 3;
+      width: 100%;
+      margin-bottom: 0px;
+  }
+  #FestivalsBlock4 {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      box-ordinal-group: 2;
+      width: 100%;
+      margin-bottom: 0px;
+  }
+
+  #Squares {
+    margin: 1px 0;
+    width: 50%;
+    height: 50%;
+  }
+  .container {
+    width: 100%;
+    display: block;
+  }  
+  #FunIndoors {
+    width: 100%;
+    background-color: green;
+    display: block;
+  }
+  #FunIndoorsMiddle {
+    width: 100%;
+    display: block;
+  }
+  #SquaresIndoors {
+    width: 80%;
+    height: 80%;
+    top: 50%;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
